@@ -1,14 +1,15 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed;
     private int m_count = 0;
     private Rigidbody rb;
-    public Text m_countText;
-    public Text m_winText;
+    public TextMeshProUGUI m_countText;
+    public TextMeshProUGUI m_winText;
 
     void Start ()
     {
